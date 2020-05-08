@@ -63,8 +63,9 @@ public class WordNode {
 			return null;
 		}
 		for (WordNode subNode : subNodes) {
-			if (subNode.value == value)
+			if (subNode.value == value){
 				return subNode;
+			}
 		}
 		return null;
 	}
